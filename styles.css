@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: 'Roboto', Arial;
+    font-family: "Roboto MS", "Comic Sans MS", Arial;
 }
 
 .container {
@@ -38,11 +38,9 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    /* height: 100px; */
 }
 
 .HERO div {
-    /* height: 100px; */
     flex: 1;
     background-color: #1f2937;
 }
@@ -69,7 +67,7 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     align-items: center;
-    height: 400px;
+    height: 450px;
     place-content: center;
 }
 
@@ -83,7 +81,7 @@ body {
 .image-flexbox {
     display: flex;
     justify-content: center;
-    gap: 10px;;
+    gap: 20px;;
 }
 
 .section2 .image-box {
@@ -100,4 +98,32 @@ body {
     text-align: center;
     color: #a6a9b1;
     font-size: 18px;
+}
+
+.section3 {
+    height: 450px;
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+.section3 .quote-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .quote {
+    flex: 1 1 auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0px;
+}
+
+.section3 .name {
+    flex: 1 1 auto;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0px;
 }
