@@ -127,3 +127,26 @@ body {
     font-weight: bolder;
     margin-top: 0px;
 }
+
+.section4 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.section4 .banner {
+    flex: 1;
+    background-color: #3882f6;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.section4 .banner .text-box {
+    flex: 2 1 auto;
+    ;
+}
+
+.section4 .banner .button {
+    flex: 2 1 auto;
+}
